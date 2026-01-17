@@ -2,6 +2,8 @@
 print("Hello, World!")
 
 # Write a program to take user input and display it.
+name = input("Enter your name :")
+print(f'My name is {name}')
 
 # Write a program to check whether a number is even or odd.
 
