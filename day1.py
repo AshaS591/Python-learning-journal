@@ -16,7 +16,7 @@ else:
 num1, num2, num3 = 10, 20, 30
 if num1 == num2 and num2 ==3 and num1 == num3:
     print("All are equal")
-    
+
 else:
     if num1>num2 and num1>num3:
         print(f"{num1} is largest")
@@ -26,6 +26,11 @@ else:
         print(f"{num3} is largest")
 
 # Write a program to calculate the sum of first N natural numbers.
+num = int(input('Enter a number :'))
+sum = 0
+for number in range(num):
+    sum += number
+print(f'Sum of {num} natural numbers :{sum}')
 
 # Write a program to print all even numbers between 1 and 100.
 
