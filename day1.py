@@ -1,18 +1,18 @@
 # 1. Write a program to print “Hello, World!”
 print("Hello, World!")
 
-# Write a program to take user input and display it.
+# 2. Write a program to take user input and display it.
 name = input("Enter your name :")
 print(f'My name is {name}')
 
-# Write a program to check whether a number is even or odd.
+# 3. Write a program to check whether a number is even or odd.
 number = int(input('Enter a number :'))
 if number%2 == 0 :
     print("Even")
 else:
     print("Odd")
 
-# Write a program to find the largest of three numbers.
+# 4. Write a program to find the largest of three numbers.
 num1, num2, num3 = 10, 20, 30
 if num1 == num2 and num2 ==3 and num1 == num3:
     print("All are equal")
@@ -25,21 +25,28 @@ else:
     else:
         print(f"{num3} is largest")
 
-# Write a program to calculate the sum of first N natural numbers.
+# 5. Write a program to calculate the sum of first N natural numbers.
 num = int(input('Enter a number :'))
 sum = 0
 for number in range(num):
     sum += number
 print(f'Sum of {num} natural numbers :{sum}')
 
-# Write a program to print all even numbers between 1 and 100.
+# 6. Write a program to print all even numbers between 1 and 100.
 even_numbers = [num for num in range(1,100) if num%2 == 0] #list comprehension
 print(f"All even numbers between 1 and 100 : {even_numbers}")
 
-# Write a program to check if a number is positive, negative, or zero.
+# 7. Write a program to check if a number is positive, negative, or zero.
+num = int(input("Enter number :"))
+if num==0:
+    print("Zero..")
+elif num>0:
+    print("Positive..")
+else:
+    print("Negative..")
 
-# Write a program to swap two variables without using a third variable.
+# 8. Write a program to swap two variables without using a third variable.
 
-# Write a program to calculate simple interest.
+# 9. Write a program to calculate simple interest.
 
-# Write a program to convert Celsius to Fahrenheit.
+# 10. Write a program to convert Celsius to Fahrenheit.
