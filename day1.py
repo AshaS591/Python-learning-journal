@@ -33,6 +33,8 @@ for number in range(num):
 print(f'Sum of {num} natural numbers :{sum}')
 
 # Write a program to print all even numbers between 1 and 100.
+even_numbers = [num for num in range(1,100) if num%2 == 0] #list comprehension
+print(f"All even numbers between 1 and 100 : {even_numbers}")
 
 # Write a program to check if a number is positive, negative, or zero.
 
