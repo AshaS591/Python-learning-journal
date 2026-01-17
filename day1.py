@@ -12,8 +12,18 @@ if number%2 == 0 :
 else:
     print("Odd")
 
-
 # Write a program to find the largest of three numbers.
+num1, num2, num3 = 10, 20, 30
+if num1 == num2 and num2 ==3 and num1 == num3:
+    print("All are equal")
+    
+else:
+    if num1>num2 and num1>num3:
+        print(f"{num1} is largest")
+    elif num2>num1 and num2>num3:
+        print(f"{num2} is largest")
+    else:
+        print(f"{num3} is largest")
 
 # Write a program to calculate the sum of first N natural numbers.
 
