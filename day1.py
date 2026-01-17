@@ -62,3 +62,6 @@ SI = (principle*time*rate)/100
 print(f"SI :{SI}")
 
 # 10. Write a program to convert Celsius to Fahrenheit.
+Celsius = 20
+Fahrenheit = (Celsius * 9/5)+ 32
+print(f"Fahrenheit :{Fahrenheit}")
