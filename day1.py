@@ -55,5 +55,10 @@ num1 = num1-num2
 print(f"After swap num1:{num1} and num2 :{num2}")
 
 # 9. Write a program to calculate simple interest.
+principle = 100
+time = 2
+rate = 10
+SI = (principle*time*rate)/100
+print(f"SI :{SI}")
 
 # 10. Write a program to convert Celsius to Fahrenheit.
