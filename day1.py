@@ -6,6 +6,12 @@ name = input("Enter your name :")
 print(f'My name is {name}')
 
 # Write a program to check whether a number is even or odd.
+number = int(input('Enter a number :'))
+if number%2 == 0 :
+    print("Even")
+else:
+    print("Odd")
+
 
 # Write a program to find the largest of three numbers.
 
