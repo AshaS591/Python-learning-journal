@@ -53,5 +53,7 @@ for name in names:
        names.remove(name)
 print(f"After removing duplicate :{names}")
 
-
+#18. Find the second largest number in a list.
+numbers = [2,0,5,1,69]
+print(f"Second largest number in a list : {sorted(numbers)[-2]}")
 
