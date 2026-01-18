@@ -30,7 +30,13 @@ for char in string:
         output[char] += 1
 print(f"Frequency of characters in a string :{output}")
 
-
+#15. Remove duplicate characters from a string.
+string = "Good work"
+new = ''
+for char in string:
+    if char not in new:
+        new += char
+print(f"String after removing duplicates : {new}")
 
 
 
