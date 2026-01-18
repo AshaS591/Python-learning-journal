@@ -45,4 +45,13 @@ numbers = [2,1,9,6]
 max_num, min_num = max(numbers),min(numbers)
 print(f"Largest element is {max_num} and smallest element is {min_num}")
 
+#17. Remove duplicate elements from a list.
+names = ['asha','anu','shashi','vasu','anu']
+
+for name in names:
+   if names.count(name) > 1:
+       names.remove(name)
+print(f"After removing duplicate :{names}")
+
+
 
