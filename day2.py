@@ -19,6 +19,19 @@ for char in string:
         count += 1
 print(f'Count of vowels in {string} :{count}')
 
+#14. Find the frequency of characters in a string.
+string = 'Practice'
+output = {}
+count = 0
+for char in string:
+    if char not in output:
+        output[char] = 1
+    else:
+        output[char] += 1
+print(f"Frequency of characters in a string :{output}")
+
+
+
 
 
 
