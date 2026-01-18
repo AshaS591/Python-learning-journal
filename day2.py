@@ -63,6 +63,14 @@ numbers = [23,90,34,5,67,99,1]
 for num in range(len(numbers)):
     for index in range(len(numbers)-num-1):
         if numbers[index]>numbers[index+1]:
-            numbers[index],numbers[index+1] = numbers[index+1], numbers[index]
-       
+            numbers[index],numbers[index+1] = numbers[index+1], numbers[index]    
 print(numbers)
+
+#20. Find common elements between two lists.
+table1 = [2,4,6,8,10]
+table2 = [4,8,12]
+common_elements = []
+for table in table1:
+    if table in table2:
+        common_elements.append(table)
+print(common_elements)
