@@ -11,7 +11,13 @@ if string == string[::-1]:
 else:
     print("Not a palindrome..")
 
-
+#13. Count the number of vowels in a string.
+string = 'Experiance'
+count = 0
+for char in string:
+    if char in 'AEIOUaeiou':
+        count += 1
+print(f'Count of vowels in {string} :{count}')
 
 
 
