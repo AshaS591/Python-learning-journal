@@ -38,7 +38,11 @@ for char in string:
         new += char
 print(f"String after removing duplicates : {new}")
 
+"""Lists"""
 
-
+#16. Find the largest and smallest element in a list.
+numbers = [2,1,9,6]
+max_num, min_num = max(numbers),min(numbers)
+print(f"Largest element is {max_num} and smallest element is {min_num}")
 
 
