@@ -57,3 +57,12 @@ print(f"After removing duplicate :{names}")
 numbers = [2,0,5,1,69]
 print(f"Second largest number in a list : {sorted(numbers)[-2]}")
 
+#19. Sort a list without using sort().
+numbers = [23,90,34,5,67,99,1]
+
+for num in range(len(numbers)):
+    for index in range(len(numbers)-num-1):
+        if numbers[index]>numbers[index+1]:
+            numbers[index],numbers[index+1] = numbers[index+1], numbers[index]
+       
+print(numbers)
