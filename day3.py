@@ -30,5 +30,8 @@ for key ,value in student_ages.items():
 print(max_key)
 
 #24. Sort a dictionary by value.
+inventory = {"apples": 10, "bananas": 5, "cherries": 25}
+order = dict(sorted(inventory.items(), key=lambda item:item[1]))
+print(order)
 
 #25. Create a dictionary from two lists.
