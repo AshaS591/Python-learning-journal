@@ -1,0 +1,17 @@
+"""Dictionaries"""
+
+#21. Count word frequency in a sentence.
+sentence = "In every day, there are 1,440 minutes. That means we have 1,440 daily opportunities to make a positive impact."
+words = sentence.split()
+output = {}
+for word in words:
+    output[word] = words.count(word)
+print(output)
+
+#22. Merge two dictionaries.
+
+#23 Find keys with maximum value.
+
+#24. Sort a dictionary by value.
+
+#25. Create a dictionary from two lists.
