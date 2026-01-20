@@ -49,7 +49,7 @@ if num == 1:
 elif num == 2:
     print(num)
 else:
-    for num1 in range(2,num):
+    for num1 in range(2,num+1):
         for number in range(2,num1):
             if num1%number == 0:
                 break
@@ -65,6 +65,20 @@ for factorial in range(1,num+1):
 print(fact)
 
 #28. Fibonacci series up to N terms
+
+num = int(input("enter a number :"))
+def fibonacci():
+    fib1 = 0
+    fib2 = 1
+    while True:
+        yield fib1
+
+        fib1, fib2 = fib2, fib1+fib2
+
+res = fibonacci()
+for _ in range(num):
+    print(next(res))
+
 
 #29. Reverse a number
 
