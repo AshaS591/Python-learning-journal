@@ -35,3 +35,9 @@ order = dict(sorted(inventory.items(), key=lambda item:item[1]))
 print(order)
 
 #25. Create a dictionary from two lists.
+names = ['asha','anusha','ram','raghu']
+ages = [23,24,22,21]
+out = {}
+for index in range(len(names)):
+    out[names[index]] = ages[index]
+print(out)
