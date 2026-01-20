@@ -41,3 +41,25 @@ out = {}
 for index in range(len(names)):
     out[names[index]] = ages[index]
 print(out)
+
+#26. Print all prime numbers between 1 and N
+num = int(input("Enter a number :"))
+if num == 1:
+    print('Not a prime..')
+
+else:
+    for num1 in range(2,num):
+        for number in range(2,num1):
+            if num1%number == 0:
+                break
+        else:
+            print(num1)
+
+
+#27. Find factorial of a number
+
+#28. Fibonacci series up to N terms
+
+#29. Reverse a number
+
+#30. Check if a number is palindrome
