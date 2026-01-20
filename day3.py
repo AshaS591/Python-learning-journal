@@ -21,6 +21,13 @@ products.update(names)
 print(products)
 
 #23 Find keys with maximum value.
+max_key =[]
+student_ages = {"asha":23, "suki":25, "divya":25}
+max_value = max(student_ages.values())
+for key ,value in student_ages.items():
+    if value == max_value:
+        max_key.append(key)
+print(max_key)
 
 #24. Sort a dictionary by value.
 
