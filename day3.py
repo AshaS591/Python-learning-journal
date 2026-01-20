@@ -9,6 +9,16 @@ for word in words:
 print(output)
 
 #22. Merge two dictionaries.
+products = {
+    101: {"name": "Laptop", "price": 1200},
+    102: {"name": "Smartphone", "price": 800},
+    103: {"name": "Headphones", "price": 150}
+}
+names = {
+    'name':'asha'
+}
+products.update(names)
+print(products)
 
 #23 Find keys with maximum value.
 
