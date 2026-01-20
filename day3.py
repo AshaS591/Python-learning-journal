@@ -46,7 +46,8 @@ print(out)
 num = int(input("Enter a number :"))
 if num == 1:
     print('Not a prime..')
-
+elif num == 2:
+    print(num)
 else:
     for num1 in range(2,num):
         for number in range(2,num1):
@@ -57,6 +58,11 @@ else:
 
 
 #27. Find factorial of a number
+num = int(input("Enter a number :"))
+fact = 1
+for factorial in range(1,num+1):
+    fact *= factorial
+print(fact)
 
 #28. Fibonacci series up to N terms
 
