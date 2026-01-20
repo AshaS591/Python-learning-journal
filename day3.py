@@ -89,3 +89,12 @@ while number>0:
 print(rev)
 
 #30. Check if a number is palindrome
+number = 808
+org_num = number
+rev = 0
+while number>0:
+    last = number%10
+    rev =rev*10+last
+    number //=10
+if rev == org_num:
+    print("Palindrome..")
