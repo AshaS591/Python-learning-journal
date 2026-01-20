@@ -80,5 +80,12 @@ for _ in range(num):
 
 
 #29. Reverse a number
+number = 908
+rev = 0
+while number>0:
+    last = number%10
+    rev =rev*10+last
+    number //=10
+print(rev)
 
 #30. Check if a number is palindrome
