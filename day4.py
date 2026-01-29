@@ -30,5 +30,11 @@ print(f"Number of digits in {num} are {digits}")
 
 
 #4. Sum of digits
-
+num = int(input("Enter a number :"))
+numbers = str(num)
+sum = 0
+for char in numbers:
+    if char in "0123456789":
+        sum += int(char)
+print(f"sum of digits in {num} are {sum}")
 #5. Armstrong number
