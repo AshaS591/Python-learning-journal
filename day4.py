@@ -37,4 +37,13 @@ for char in numbers:
     if char in "0123456789":
         sum += int(char)
 print(f"sum of digits in {num} are {sum}")
+
 #5. Armstrong number
+num = int(input("Enter a number :"))
+length = len(str(num))
+num_str = str(num)
+armsstrong = 0
+for char in num_str:
+    armsstrong += int(char)**length
+if armsstrong == num:
+    print("Armstrong..")
