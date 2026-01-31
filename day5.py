@@ -15,6 +15,9 @@ print(f"GCD of {num1}, {num2} = {gcd(num1,num2)}")
 #3. LCM of two numbers
 
 #4. Power of a number
+num = int(input("Enter a number :"))
+power = int(input("Enter power :"))
+print(f"{num} power {power} is {num**power}")
 
 #5.Pattern:
 """
