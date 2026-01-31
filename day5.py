@@ -26,3 +26,10 @@ print(f"{num} power {power} is {num**power}")
 ***
 ****
 """
+rows = int(input("Enter no of rows :"))
+cols = int(input("Enter no of cols :"))
+for row in range(1,rows+1):
+    for col in range(1,row+1):
+        print("*",end=" ")
+    print()
+
