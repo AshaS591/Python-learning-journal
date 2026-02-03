@@ -13,6 +13,14 @@ num1,num2 =20,0
 print(f"GCD of {num1}, {num2} = {gcd(num1,num2)}")
 
 #3. LCM of two numbers
+def gcd(num1,num2):
+    if num2 == 0:
+        return num1
+    else:
+        return gcd(num2, num1%num2)
+num1,num2 =2,9
+lcm = (num1*num2)//gcd(num1,num2)
+print(f'lcm of {num1}, {num2} = {lcm}')
 
 #4. Power of a number
 num = int(input("Enter a number :"))
@@ -27,7 +35,6 @@ print(f"{num} power {power} is {num**power}")
 ****
 """
 rows = int(input("Enter no of rows :"))
-cols = int(input("Enter no of cols :"))
 for row in range(1,rows+1):
     for col in range(1,row+1):
         print("*",end=" ")
